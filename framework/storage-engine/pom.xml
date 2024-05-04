@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>r_pan_framework</artifactId>
+        <groupId>com.imooc.pan</groupId>
+        <version>1.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>r_pan_storage-engine</artifactId>
+
+    <packaging>pom</packaging>
+    <modules>
+        <module>storage-engine-core</module>
+        <module>storage-engine-local</module>
+<!--        <module>storage-engine-fastdfs</module>-->
+        <module>storage-engine-oss</module>
+    </modules>
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+    </properties>
+
+</project>
